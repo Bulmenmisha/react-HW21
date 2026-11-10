@@ -1,0 +1,18 @@
+.result {
+  padding: 20px;
+  border-radius: 12px;
+  background: #0ea5e9;
+  color: #ffffff;
+  text-align: center;
+}
+
+.score {
+  margin: 0 0 6px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.message {
+  margin: 0;
+  font-size: 16px;
+}

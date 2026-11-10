@@ -1,0 +1,62 @@
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 40px 16px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  margin: 0;
+  color: #0f172a;
+}
+
+.progress {
+  margin: -8px 0 0;
+  color: #64748b;
+}
+
+.questions {
+  display: grid;
+  gap: 16px;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.submit,
+.reset {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.submit {
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.submit:hover:not(:disabled) {
+  background: #334155;
+}
+
+.submit:disabled {
+  background: #cbd5e1;
+  cursor: not-allowed;
+}
+
+.reset {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.reset:hover {
+  background: #cbd5e1;
+}
